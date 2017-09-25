@@ -1,5 +1,5 @@
 body{
-    background-color: #A3FEF0
+    background-color: #FFC29F
 }
 #dp{
     background-image: url("img/me.jpg");
@@ -12,7 +12,7 @@ body{
     height: 150px;
     width: 150px;
     max-width: 150px;
-    max-height: 150px;
+    max-height: 150px; 
 }
 #header {
     background-image: url("img/header.jpg");
@@ -27,12 +27,13 @@ body{
 #nav {
     font-family:Courier New, Courier, monospace;
     line-height:30px;
-    background-color:#77FFE4;
+    background-color: wheat;
     height:300px;
     width:180px;
     float:left;
     padding:5px;    
-    text-align: 
+    text-align: center;
+    font-weight: bold;
 }
 #section {
     width:350px;
