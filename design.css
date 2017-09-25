@@ -1,3 +1,6 @@
+body{
+    background-color: #A3FEF0
+}
 #dp{
     background-image: url("img/me.jpg");
     float: left;
@@ -6,25 +9,30 @@
     top: 230px;
     background-size: contain;
     background-repeat: no-repeat;
-   height: 150px;
-   width: 150px;
-   max-width: 150px;
-   max-height: 150px;
+    height: 150px;
+    width: 150px;
+    max-width: 150px;
+    max-height: 150px;
 }
 #header {
     background-image: url("img/header.jpg");
+    height: auto;
+    width: auto;
+    opacity: 0.85;
     text-align:center;
     padding:15px;
     background-size: cover;
 
 }
 #nav {
+    font-family:Courier New, Courier, monospace;
     line-height:30px;
-    background-color:#eeeeee;
+    background-color:#77FFE4;
     height:300px;
-    width:150px;
+    width:180px;
     float:left;
     padding:5px;    
+    text-align: 
 }
 #section {
     width:350px;
@@ -39,7 +47,8 @@
     padding:5px;
 }
 #name{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, monospace;
+    font-weight: lighter;
     color: white;
     size: 40px;
     letter-spacing: 4px;
