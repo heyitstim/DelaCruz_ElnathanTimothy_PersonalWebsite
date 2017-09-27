@@ -1,20 +1,18 @@
-#header {
-    background-color: #171616;
+#header{ 
+    background-color:grey;
+    padding:5px;
+    position: static;
     height: 500px;
-    width: auto;
-    text-align:center;
-    padding:15px;
-    background-size: cover;
+    width:100%;
+    align-items: right;
 }
 #nav {
     font-family:Courier New, Courier, monospace;
-    line-height:30px;
-    background-color: wheat;
-    height:300px;
-    width:180px;
-    float:left;
+    position: absolute;
+    background-color: darkgrey;
+    height: 30px;
+    width:100%;
     padding:5px;    
-    text-align: center;
     font-weight: bold;
 }
 #section {
@@ -23,8 +21,8 @@
     padding:10px;
 }
 #footer {
-    background-color: white;
-    color:white;
+    background-color: grey;
+    color:darkgrey;
     clear:both;
     text-align:center;
     padding:5px;
@@ -32,7 +30,7 @@
 #eat{
     font: 150px arial,sans-serif;
     font-weight:900;
-    color: white;
+    color: darkgrey;
     letter-spacing: 4px;
     margin-bottom: 150px;
     margin-top : 90px;
@@ -41,9 +39,18 @@
 #sleep{
     font: 150px arial,sans-serif;
     font-weight:900;
-    color: white;
+    color: darkgrey;
     letter-spacing: 4px;
     margin-bottom: 150px;
     margin-top : -190px;
     text-align: right; 
+}
+#code{
+    font: 150px arial,sans-serif;
+    font-weight:900;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 150px;
+    margin-top : -200px;
+    text-align: right;
 }
