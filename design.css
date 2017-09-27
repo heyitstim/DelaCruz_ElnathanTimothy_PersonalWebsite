@@ -12,6 +12,7 @@ body{
 #nav {
     font-family:Courier New, Courier, monospace;
     position: absolute;
+    position: fixed;
     background-color: darkgrey;
     height: 30px;
     width:100%;
