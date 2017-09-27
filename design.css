@@ -1,3 +1,6 @@
+body{
+    background-color: darkgrey;
+}
 #header{ 
     background-color:grey;
     padding:5px;
@@ -53,4 +56,10 @@
     margin-bottom: 150px;
     margin-top : -200px;
     text-align: right;
+}
+#dp{
+max-width: 50%;
+height: auto;
+background:url(img/me.png) no-repeat center center fixed;
+background-size: cover;
 }
