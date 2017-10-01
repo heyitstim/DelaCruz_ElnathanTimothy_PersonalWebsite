@@ -4,19 +4,20 @@ body{
 #header{ 
     background-color:grey;
     padding:5px;
+    position: absolute;
     position: static;
     height: 500px;
     width:100%;
     align-items: right;
+    
 }
 #nav {
     font-family:Courier New, Courier, monospace;
-    position: absolute;
+    position: static;
     position: fixed;
     background-color: darkgrey;
-    height: 50px;
-    width:100%;
-    padding:5px;    
+    height: 10px;
+    width:100%; 
     font-weight: bold;
 }
 #section {
