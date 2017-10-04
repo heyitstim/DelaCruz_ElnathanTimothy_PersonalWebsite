@@ -2,6 +2,7 @@ body {
     background-color:rgba(255, 218, 185, 0.68);
 }
 #pagewrapper{
+    max-width: 60%;
     margin-left: 175px;
     margin-right: 175px;
 }
@@ -18,21 +19,17 @@ div#wrapperHeader div#header {
     border-left: 50px;
     border-right: 50px;
 }
-
-#section {
-   
-    margin-top: 220px;
-    margin-right: 50px;
-    width: auto;
-    float: right;
-    padding: 5px;
+#intro{
+    position: absolute;
+    top: 320px;
+    left: 470px;
+    right: 145px;
     background-color: rgba(255, 215, 181, 0.33);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#intro{
     font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding: 5px;
 }
-
 #footer {
     background-color: grey;
     color: darkgrey;
