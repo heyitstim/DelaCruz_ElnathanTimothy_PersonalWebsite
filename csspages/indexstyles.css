@@ -4,7 +4,6 @@ body {
 #pagewrapper{
     margin-left: 175px;
     margin-right: 175px;
-    resize: auto;
 }
 div#wrapperHeader {
     width: auto;
@@ -24,7 +23,7 @@ div#wrapperHeader div#header {
    
     margin-top: 220px;
     margin-right: 50px;
-    width: 650px;
+    width: auto;
     float: right;
     padding: 5px;
     background-color: rgba(255, 215, 181, 0.33);
